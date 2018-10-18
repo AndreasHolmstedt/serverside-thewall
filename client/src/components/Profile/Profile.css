@@ -1,0 +1,156 @@
+body{
+  background-color: #f9f9f9;
+}
+.profileInformation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.profileImg {
+  margin: 20px auto;
+  border-radius: 50%;
+  height: 82px;
+  width: 82px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sugProfileImg {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+
+}
+
+.sugProfileDiv {
+    border-radius: 100%;
+    height: 42px;
+    width: 42px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainProfileContainer {
+  width: 300px;
+  height: 800px;
+  padding-bottom: 20px;
+  margin: 0;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+  box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+}
+
+.editProfileButton{
+  background-color: #3b5998;
+  border: none;
+  color: #fff;
+  padding: 7px 60px;
+  font-family: arial;
+  font-size: 0.7em;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.editProfileButton:hover{
+  cursor: pointer;
+  background-color: #3b5998e6;
+}
+
+.editProfileButtonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+  padding: 0px 0 20px 0;
+  border-bottom: 1px solid #a9b7d299;
+}
+
+.profileNameStl{
+  margin-top: 10px;
+  color: #5972a7;
+  margin-bottom: 0px;
+}
+
+.profileEmailStl{
+  margin: 0;
+  font-size: 0.8em;
+  color: #b5c0d8;
+}
+
+
+.sugFriendContainer{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #a9b7d299;
+}
+
+.sugFriendStl{
+  display: flex;
+  margin: 10px 0px;
+}
+
+
+.sugFriendStl > p {
+  font-size: 0.8em;
+  color: #5d5d5d;
+  padding: 12px 0px 0px 7px;
+}
+
+.SugParagrafText{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.SugParagrafText > p {
+  margin: 0;
+  color: #5972a7;
+}
+
+.SugParagrafText > img{
+  padding: 5px 0px 0px 5px;
+  height: 12px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.sugInnerFriendContainer{
+  margin: 10px 0 0 5px;
+}
+
+.profileDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sugGroupContainer{
+  font-family: 'Montserrat', sans-serif;
+  margin: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #a9b7d299;
+}
+
+.sugGroupStl {
+  font-size: 0.8em;
+  color: #5d5d5d;
+  padding: 12px 0px 0px 7px;
+}
+
+.sugGroupStl h6{
+  font-size: 14px;
+  font-weight: 600;
+  color: #3d5c99;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.sugGroupStl p{
+  color: #212121;
+  margin-bottom: 5px;
+}

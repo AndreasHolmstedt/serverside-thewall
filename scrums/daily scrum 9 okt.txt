@@ -1,0 +1,33 @@
+Dennis
+ - Suttit med profilkomponenten, fetchat mongodb.users skapat en state där randomprofilen genereras.
+ - gjort så att skickas från api:t.
+ ska göra:
+  - random profile generator backend.
+
+Oskar
+  - byggt micro frontend statuskort, skapa statusfältet, slagit ihop det med dennis. skapat headerkomponenten.
+  ska göra:
+   - read funktionen för statusar och användare server.
+
+Erik
+  - Skapat struktur fixat diverse småsaker för att göra koden lite renare.
+  ska göra:
+   - frontend för att visa vilka användare som är online just nu.
+
+Andreas
+ - databaspopulerarna för statuses och users. lite småfix backend.
+ ska göra:
+  - update/create user and status server functions
+
+RETROSPECTIVE
+Vad kan vi bli bättre på
+  Erik har lärt sig att han ska testa saker bättre
+  Vi använde oss från början av både npm och yarn vilket ställde till med en del problem
+  Se till att alltid hålla projektets bibliotek uppdaterat.
+  Dennis behöver bli lite bättre på att inte snöa in sig för länge på saker.
+  Se till att alla är mer involverade i både front och backend.
+
+Vad ska vi fortsätta med
+  vi är bra på att hålla oss uppdaterade hela tiden på slack
+  alla har bra delaktighet.
+  

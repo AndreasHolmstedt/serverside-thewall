@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wallContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/*** Create Status Area ***/
+.createStatusContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 250px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+  box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+  border-bottom: 0.5px solid lightgray;
+}
+ .optionCreate{
+   width: 90%;
+   height: 35px;
+   display: flex;
+   border-bottom: 0.5px solid lightgray;
+ }
+.optionCreate p{
+  cursor: pointer;
+  font-size: 15px;
+  margin: 10px 0 0 0px;
+  border-bottom: 2px solid #3d5c99;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d5c99;
+  letter-spacing: 0.5px;
+}
+
+.textAreaStatus{
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  padding: 10px;
+  height: 135px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 0.5px solid lightgray;
+  resize: none;
+}
+
+textarea::placeholder {
+  padding: 0 5px;
+}
+
+.postButtonContainer{
+  width: 95%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.postButton{
+  outline: none;
+  border: none;
+  height: 30px;
+  padding: 7px 50px;
+  background-color: #3d5c99;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.settingsButton{
+  color: #3d5c99;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.settingsButton:hover{
+  text-decoration: underline;
+}
+/*** Status Component ***/
+.statusContainer{
+  width: 500px;
+  min-height: 100px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+  box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+}
+
+.userInfoCard{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.imageHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfoCard .info {
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -15px;
+}
+
+.userInfoCard .options {
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 0.5em;
+    left: -2em;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+    box-shadow: 0 0 25px rgba(35, 31, 32, 0.1);
+    border: 1px solid lightgray;
+}
+
+.hidden {
+    display: none;
+}
+
+.userInfoCard .options button {
+    border: none;
+    background: none;
+    width: 60px;
+}
+
+.userInfoCard .options button:hover {
+    cursor: pointer;
+    color: #3d5c99;
+}
+
+.userInfoCard .info button.infoDots {
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: rgb(117, 117, 117);
+}
+
+.userInfoCard .info .infoDots:hover {
+    cursor: pointer;
+    color: #3d5c99;
+}
+
+.userInfoCard .info > div {
+    display: none;
+}
+
+.userInfoCard .info:hover > div {
+    display: block;
+}
+
+.userImage{
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.userNameTime{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 7.5px;
+  height: 50px;
+  width: 200px;
+}
+
+.userNameTime p{
+  font-size: 13px;
+  margin-top: 4px;
+  color: #726f6f;
+}
+
+.userNameTime h4{
+  color: #3d5c99;
+  letter-spacing: 0.5px;
+}
+
+.statusText{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.statusText p{
+  margin: 10px 20px;
+  font-size: 14px;
+  word-wrap: break-word;
+  font-family: 'Montserrat', sans-serif;
+  color: #2f2f2f;
+  padding-bottom: 10px;
+}
+
+.statusText input {
+    margin: 10px 20px;
+    font-size: 14px;
+    color: #2f2f2f;
+    padding: 7px;
+    border-bottom: 0.5px solid lightgray;
+    border: 1px solid rgba(61, 92, 153, 0.5);
+    outline: none;
+}
+
+.statusText button {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 7px 20px;
+    background-color: #3d5c99;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.statusText .discard {
+    background-color: white;
+    color: #993d3d;
+    font-weight: 600;
+}
+
+.likeContainer{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: left;
+}
+
+.likeNumber {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 9px 10px 0px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.likeNumber > img {
+    height: 18px;
+    width: 18px;
+}
+
+.likeNumber > p {
+    color: #726f6f;
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.likeImg {
+    width: 26px;
+    cursor: pointer;
+    padding: 10px 10px 10px 5px;
+}
+
+.likeDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.likeDiv > p {
+    color: #726f6f;
+    padding: 15px 0px 0px 0px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.likeDiv > img {
+  height: 25px;
+}
+
+.likeImg:hover{
+    background-color: #E6E5E5;
+}

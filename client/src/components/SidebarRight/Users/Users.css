@@ -1,0 +1,60 @@
+.onlineUsers {
+    font-family: "Montserrat";
+    width: 300px;
+    overflow-y: auto;
+}
+
+.onlineUsers .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.onlineUsers .title h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5972a7;
+}
+
+.onlineUsers .title p {
+    font-size: 14px;
+    color: #a2c1ff;
+}
+
+.onlineUsers ul li {
+    display: flex;
+    padding: 1.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.onlineUsers .left {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.onlineUsers .greenCircle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #3d9942;
+}
+
+.onlineUsers ul li:hover {
+    cursor: pointer;
+    background: #e3ecff;
+}
+
+.onlineUsers .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
